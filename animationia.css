@@ -1,0 +1,49 @@
+@keyframes canvaA { /*este es el reloj de processing*/
+ 0% { left: 0px; filter:hue-rotate (1deg)}
+ 50%{left: 500px; filter:hue-rotate (90deg)}
+ 100% { left: 1000px;filter:hue-rotate (180deg)}
+}
+
+#pjsCanvas{
+	display: flex;
+	width: 90px;
+	position:relative;
+	animation: canvaA 25s linear infinite alternate;
+}
+#pjsCanvas:hover{
+	animation-play-state:paused;
+	transform:scale (3,3) rotate (45deg);
+}
+@keyframes avisoA { 
+    0% {left: 0px;background-color: white}
+    100% {left: 1000px; background-color: #B8E6F2}
+}
+#aviso {
+	width: 300px;
+	height: 100px;
+	position: relative;
+	animation: avisoA 10s ease-out infinite alternate;
+}
+#aviso >p{
+	font: 60px "Algerian";
+	color: white;
+	text-align: center;
+}
+#aviso:hover{
+	animation-play-state: paused;
+}
+
+@keyframes htmlA{
+    0% {left: 0px;transform:rotate(0deg) scale(1,1); filter:hue-rotate(1deg)}
+	25% {left: 400px;transform:rotate(45deg) scale(0.5,0.5); filter:hue-rotate(60)}
+	50% {left: 800px;transform:rotate(90deg) scale(2,2); filter:hue-rotate(120deg)}
+}
+#html{
+	width:160px;
+	position:relative;
+	animation:htmlA 5s linear infinite normal;
+}
+#html:hover{
+	animation-play-state:paused;
+}
+ 

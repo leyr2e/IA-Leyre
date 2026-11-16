@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>
+LA INTELIGENCIA ARTIFICIAL
+</title>
+<link href="icono.png" rel="icon"  />
+<link href="styleia.css" rel="stylesheet" type="text/css">
+<link href="animationia.css" rel="stylesheet" type="text/css">
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+</head>
+ 
+<header>
+<br> <u><i>LA INTELIGENCIA ARTIFICIAL</i></u>
+<canvas id="pjsCanvas">h</canvas>
+ 
+</header>
+ 
+ 
+<body>
+<br><div id="aviso"><b> NOS GUSTA LA IA </b></div>
+ 
+ 
+<br><nav id="menuhorizontal"> <ul>
+<li><a href="#definiciones "> DEFINICIONES</a></li><li><a href="#tiposia "> TIPOS DE IA</a></li><li><a href="#aplicacionesia "> APLICACIONES DE LA IA</a></li><li><a href="#historiaia "> HISTORIA DE LA IA</a></li><li><a href="#futuroia "> FUTURO DE LA IA</a></li><li><a href="#inconvenientesia "> INCONVENIENTES DE LA IA</a></li>
+ 
+</ul></nav>
+<br><br><br>
+<div id="definiciones">
+<center><big><b><i><mark style="background-color: #FCBBD1"> DEFINICIONES</mark></b></i></center>
+<ul><li TYPE="CIRCLE"><b>Inteligencia Artificial (IA):</b> Conjunto de técnicas y algoritmos que permiten a las máquinas realizar tareas que normalmente requieren inteligencia humana.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Aprendizaje automático (Machine Learning):</b> Subcampo de la IA que permite que las máquinas aprendan y mejoren su rendimiento a partir de datos sin ser programadas explícitamente.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Redes neuronales artificiales:</b> Estructuras de procesamiento de información inspiradas en las neuronas del cerebro humano, que permiten aprender patrones complejos.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Algoritmo:</b> Conjunto de instrucciones que siguen las máquinas para resolver problemas o realizar tareas.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Razonamiento automatizado</b> Proceso por el cual una máquina toma decisiones o resuelve problemas basándose en lógica formal.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Visión por computadora:</b> Capacidad de una máquina para interpretar y entender imágenes o videos, similar a como lo haría un ser humano.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Procesamiento de lenguaje natural (PLN):</b> Rama de la IA que permite que las máquinas comprendan, interpreten y generen lenguaje humano.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Robótica: </b> Rama de la ingeniería y la IA que crea robots capaces de realizar tareas de manera autónoma.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Deep Learning (aprendizaje profundo):</b> Subcampo del aprendizaje automático que utiliza redes neuronales profundas para aprender de grandes cantidades de datos.</li></ul>
+<ul><li TYPE="CIRCLE"><b>Redes Neuronales Recurrentes (RNN):</b> Tipo de red neuronal utilizada para procesar datos secuenciales, como texto o audio.</li></ul>
+ <br><br>
+ <center><a href="Docia.pdf" target="_blank">Archivo de Inteligencia Artificial</a>
+<br><a href=" https://es.pinterest.com/search/pins/?q=inteligencia%20artificial&rs=typed" target="_blank">Imágenes de Inteligencia Artificial</a>
+<br><br>  <img src="globo1.gif" alt="Globo girando" width="200" height="200">
+ </center>
+</div>
+
+ <br><br><br>
+<div id="tiposia">
+<center>
+<table border="1">
+<caption> <b><i><mark style="background-color: #FCBBD1">TIPOS DE IA </mark></i></b></caption>
+<tr>
+<td><b><center>TIPOS</center></b></td><td><b><center>EJEMPLOS</center></b></td>
+</tr>
+<tr> 
+<td><b>IA débil:</b> IA diseñada para realizar tareas específicas, sin conciencia ni emociones.</td> <td><b> Ejemplo: </b> Los asistentes virtuales como Alexa o Google Assistant. <a href="https://assistant.google.com/intl/es_es/ " target="_blank"> Enlace Google Assistant </a></td>
+</tr>
+<tr> 
+<td><b>IA fuerte:</b>  IA que simula la inteligencia humana en su totalidad, con capacidad de razonamiento general y comprensión.</td><td> <b>Ejemplo:</b> Una máquina que podría entender y razonar de manera similar a un ser humano (todavía no existe).</td>
+</tr>
+<tr> 
+<td><b>IA predictiva:</b>  Uso de algoritmos de IA para hacer predicciones basadas en datos pasados. </td><td><b> Ejemplo:</b> Los sistemas de predicción del clima que pronostican el tiempo basándose en datos históricos.<a href="https://www.meteomatics.com/en/weather-api/ai-weather-forecasting/?utm_source=google&utm_medium=cpc&utm_campaign=9891628525&utm_term=&utm_content=433573438455&utm_id=9891628525&hsa_acc=5001518620&hsa_cam=9891628525&hsa_grp=101205540875&hsa_ad=433573438455&hsa_src=g&hsa_tgt=kwl-3500001&hsa_kw=&hsa_mt=a&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=9891628525&gbraid=0AAAAADoNVHoK0qoH9ZuzjBF6WkDTfRoU6&gclid=EAIaIQobChMIt-Hx-uXrlwMV5bRoCR3fEDfXEAAYASAAEgLhtvD_BwE%22 target="_blank">Enlace a GraphCast  </a></td>
+</tr>
+<tr>
+<td><b>IA explicativa:</b>  Sistemas que no solo toman decisiones, sino que también pueden explicar cómo llegaron a ellas. </td><td><b>Ejemplo:</b> Un sistema médico que no solo recomienda un tratamiento, sino que explica por qué lo hace, basándose en datos. <a href="https://sites.research.google/gr/med-palm/" target="_blank"> Enlace Google Med-PaLM </a></td>
+</tr>
+<tr>
+<td><b>IA Adaptativa:</b> Tipo de IA que puede modificar su comportamiento y estrategias a medida que obtiene nueva información o experiencias.</td><td> <b>Ejemplo:</b> Un sistema de IA en videojuegos que ajusta la dificultad de acuerdo con el desempeño del jugador.<a href="https://www.europapress.es/portaltic/videojuegos/noticia-ia-ajusta-nivel-dificultad-videojuegos-base-habilidad-jugador-20210203173338.html%22 target="_blank"> Enlace página sobre la IA en videojuegos </a></td>
+</tr>
+<tr> 
+<td><b>Super IA (ASI):</b> Un nivel hipotético donde la IA supera la inteligencia, creatividad y capacidad de análisis de todos los seres humanos combinados pero que todavía no existe.</td><td>No existe</td>
+</tr>
+</table>
+<br><br><br>
+<video src="videoia.mp4" controls></video>
+
+</center>
+</div> 
+<br><br><br>
+<div id="aplicacionesia"><center><b><i><mark style="background-color: #FCBBD1">APLICACIONES DE LA IA</mark></i></b></center>
+ 
+<ol><li><b>Asistentes personales virtuales: </b>Es uno de los ejemplos más claros de inteligencia artificial, como también lo son Alexa de Amazon, Siri de Apple o Cortana de Microsoft, que los encontramos integrados en nuestros dispositivos cotidianos. </li>
+<li><b> Finanzas: </b>Las tecnologías inteligentes pueden ayudar a los bancos a detectar fraudes, predecir patrones del mercado e incluso aconsejar operaciones a sus clientes. </li>
+<li><b> Educación: </b>Con los agentes inteligentes se puede saber si un estudiante está a punto de cancelar su registro, sugerir nuevos cursos o crear ofertas personalizadas para optimizar el aprendizaje. </li>
+<li><b> Clima y agricultura: </b>Otra de las aplicaciones de inteligencia artificial que pueden usarse para el bien de nuestro planeta son flotas de drones que plantan millones de árboles anuales para combatir la deforestación, vehículos submarinos no tripulados que detectan fugas en oleoductos, edificios inteligentes diseñados para reducir el consumo energético, etc. </li>
+<li><b> Logística y transporte: </b>La IA es útil a la hora de evitar colisiones o atascos y, especialmente, para optimizar el tráfico. Por ejemplo, hay algunos modelos de coches de Tesla cuentan con sistemas que comparten las rutas de los vehículos con el resto para disponer de información más detallada de las carreteras. </li>
+<li><b>  Sanidad: </b>No es raro utilizar chatbots que preguntan por síntomas con el fin de hacer un diagnóstico. Así, al recolectar datos se generan patrones que ayudan a identificar factores genéticos susceptibles de desarrollar una enfermedad. </li>
+<li> <b>Comercio: </b>Con la IA se pueden realizar pronósticos de ventas y escoger el producto idóneo para recomendárselo al cliente. Grandes compañías de la talla de Amazon usan robots para identificar si un producto tendrá o no éxito, incluso antes de su lanzamiento. </li></ol>
+<br><center><nav id="menuapartado"> <ul>
+<li><a href="index2.html" target="_blank"> MÁS APLICACIONES</a></li>
+</ul></nav></center>
+<br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.2435708355124!2d-122.39173729783738!3d37.770110378466406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7f003d69b9bf%3A0xa4956a88efb77017!2sOpenAI!5e0!3m2!1ses!2ses!4v1794326248650!5m2!1ses!2ses%22 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+ <br><br><br>
+<div id="historiaia"><center><b><i><mark style="background-color: #FCBBD1">HISTORIA DE LA IA</mark></i></b>
+<br><br>La idea de crear máquinas que imitaran la inteligencia humana estaba presente incluso en la antigüedad, con mitos y leyendas sobre autómatas y máquinas pensantes. Sin embargo, no fue hasta mitad del siglo XX cuando se investigó su verdadero potencial, después de que se desarrollaran las primeras computadoras electrónicas.
+ 
+<br><br>En 1943 Warren McCulloch y Walter Pitts presentaron su modelo de neuronas artificiales, considerada la primera inteligencia artificial, aun cuando todavía no existía el término. Posteriormente, el matemático británico Alan Turing publicó en 1950 un artículo con el título “Computing machinery and intelligence” (“Maquinaria e inteligencia informática”) en la revista Mind donde se hacía una pregunta: ¿Pueden pensar las máquinas? Proponía un experimento que pasó a denominarse Test de Turing y que, según el autor, permitiría determinar si la máquina podría tener un comportamiento inteligente similar al de un ser humano o indistinguible de este.
+ 
+John McCarthy acuñó en 1956 el término “inteligencia artificial” e impulsó en la década de 1960 el desarrolló del primer lenguaje de programación de IA, LISP. Los primeros sistemas de inteligencia artificial se centraron en reglas, lo que condujo al desarrollo de sistemas más complejos en las décadas de 1970 y 1980, junto a un impulso de la financiación. En estos momentos, la IA experimentó un renacimiento gracias a avances en algoritmos, hardware y técnicas de aprendizaje automático.
+ 
+<br><br>Ya en la década de 1990, los avances en la potencia informática y la disponibilidad de grandes cantidades de datos permitieron a los investigadores evolucionar algoritmos de aprendizaje y consolidar las bases de la IA del presente. En los últimos años, esta tecnología ha vivido un crecimiento exponencial, impulsado en buena medida por el desarrollo del aprendizaje profundo, que aprovecha redes neuronales artificiales con diversas capas para procesar e interpretar estructuras de datos complejas. Este desarrollo ha transformado significativamente diversas aplicaciones de la IA, como el reconocimiento de imágenes y voz, el procesamiento del lenguaje natural (PLN), y los sistemas autónomos, incluyendo vehículos autoconducidos y drones.
+<br> <img id="historia" src="historia.jpg" border="1"></img>
+</center>
+
+ 
+</div>
+<br><br><br>
+<div id="futuroia"><center><b><i><mark style="background-color: #FCBBD1">FUTURO DE LA IA</mark></i></b>
+<table border="3">
+<tr><td>
+<ul><li TYPE="SQUARE">De aquí a 2034, la IA se convertirá en un elemento más, presente en muchos aspectos de nuestra vida personal y profesional. Los modelos de IA generativa como GPT-4 han demostrado ser muy prometedores en el poco tiempo que han estado disponibles para el consumo público, pero sus limitaciones también son bien conocidas.</li></ul>
+<ul><li TYPE="SQUARE">Como resultado, el futuro de la IA se define por un cambio hacia modelos a gran escala de código abierto para la experimentación y el desarrollo de modelos más pequeños y eficientes para estimular la facilidad de uso y facilitar un menor coste.</li></ul>
+<ul><li TYPE="SQUARE">Iniciativas como Llama 3.1, un modelo de IA de código abierto con 400 mil millones de parámetros, y Mistral Large 2, lanzado con fines de investigación, ilustran la tendencia a fomentar la colaboración comunitaria en proyectos de IA a la vez que se mantienen los derechos comerciales. </li></ul>
+<ul><li TYPE="SQUARE">El creciente interés por modelos más pequeños ha llevado a la creación de modelos como el GPT 4o-mini, de 11 mil millones de parámetros, que es rápido y rentable. No pasará mucho tiempo antes de que haya un modelo adecuado para integrarse en dispositivos como smartphones, especialmente a medida que el coste siga disminuyendo.</li></ul>
+<ul><li TYPE="SQUARE">Este movimiento refleja una transición de modelos exclusivamente grandes y cerrados a soluciones de IA más accesibles y versátiles. Aunque los modelos más pequeños son asequibles y eficientes, sigue existiendo una demanda pública de sistemas de IA más potentes, lo que indica que probablemente habrá un enfoque equilibrado en el desarrollo de la IA para intentar priorizar tanto la escalabilidad como la accesibilidad. Estos nuevos modelos ofrecen una mayor precisión con menos recursos, lo que los hace ideales para empresas que necesitan crear contenidos personalizados o capacidades para resolver problemas complejos.</li></ul>
+</tr></td>
+ 
+</table>
+ <br> <img id="futuro" src="futuro.png" border="1"></img>
+</div>
+<br><br><br>
+<div id="inconvenientesia"><center><b><i><mark style="background-color: #FCBBD1">INCONVENIENTES DE LA IA</mark></i></b>
+<div align="left"> <ol type="i"><li><b>Desplazamiento de empleos: </b>La inteligencia artificial tiene el potencial de eliminar empleos debido a su capacidad para automatizar tareas repetitivas y predecibles.</li>
+<li><b> Sesgo algorítmico: </b>El sesgo algorítmico supone una tendencia de los algoritmos de IA a tomar decisiones discriminativas debido a la influencia de datos de entrenamiento desviado. </li>
+<li><b> Falta de empatía: </b>La falta de empatía limita la capacidad de la IA para interactuar y comprender las necesidades emocionales de las personas. </li>
+<li><b> Menor privacidad: </b>La privacidad puede ser un problema debido a la necesidad de recopilar datos de forma masiva. La IA a menudo requiere acceso a datos sensibles para su funcionamiento, lo que plantea preocupaciones sobre la seguridad y la posibilidad de abusos. </li>
+<li><b> Dependencia tecnológica: </b>La dependencia tecnológica se puede traducir en la vulnerabilidad a fallos y a la pérdida de habilidades humanas en ciertas tareas.</li>
+<li><b> Desafíos éticos: </b>La inteligencia artificial plantea desafíos éticos debido a su capacidad para tomar decisiones autónomas. La IA puede enfrentar dilemas éticos, no cuenta con la capacidad de comprender completamente el contexto o el impacto de sus elecciones. </li>
+<li> <b>Limitaciones creativas: </b>Las limitaciones creativas están asociadas a la dependencia de patrones y datos previos a los que está atada la inteligencia artificial. </li></ol>
+</div>
+</div>
+ <div id="html"> <img id="captura" src="captura.png"></img></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+ 
+ 
+ 
+ 
+<footer>
+ 
+<center>
+Leyre Ramiro. Página IA para TIC.  <img id="foto" src="foto.png" border="1"></img>
+</center>
+ 
+ 
+ 
+</footer>
+ 
+ 
+ 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

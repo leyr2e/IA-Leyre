@@ -1,0 +1,143 @@
+header{
+     color: white;
+	 background-color:#FCBBD1;
+	 text-align: center;
+	 font-size: 40px;
+	 font-family: "Sans Serif";
+}
+	#menuhorizontal ul li{
+		display: inline;
+		padding: 5px 12px; 
+		margin: 5px; 
+		background-color: #FCBBD1;
+		color: white;
+		font-family: "Algerian";
+		font-size:"20px";
+	}
+
+    #menuhorizontal ul { 
+
+	border-bottom:50px;
+	border-bottom-style:solid;
+	border-bottom-color:#FCBBD1
+	}
+	#menuhorizontal ul li:hover {
+	background-color:#FCBBD1;
+	cursor: pointer;
+}
+ #menuhorizontal ul li a{
+	text-decoration:none;
+	color:inherit;
+ }
+
+ 	#menuapartado ul li{
+		display: inline;
+		padding: 5px 12px; 
+		margin: 5px; 
+		background-color: #FCBBD1;
+		color: white;
+		font-family: "Algerian";
+		font-size:"20px";
+	}
+
+    #menuapartado ul { 
+
+	border-bottom:50px;
+	border-bottom-style:solid;
+	border-bottom-color:#D6EAF8
+	}
+	#menuapartado ul li:hover {
+	background-color:#D6EAF8;
+	cursor: pointer;
+}
+ #menuapartado ul li a{
+	text-decoration:none;
+	color:inherit;
+	}
+ body{
+	 font-family: "Sans Serif";
+	 background-color: #FEEBE7;
+	 
+ }
+ #aplicacionesia{
+	 	text-align: justify;
+		background-color: #D6EAF8;
+		font-family: "Palatino Linotype";
+ }
+ 
+
+footer{
+	background-color:#FCBBD1;
+	font-family:"Algerian";
+	font-size:20px;
+}
+
+#foto{
+	width: 50px;
+	height: 30px;
+}
+#historiaia{
+	text-align: justify;
+	background-color:#C8EAD5;
+	font-family:"Times New Roman";
+ }
+#definiciones {
+	background-color:#FFB5F2;
+	font-family:"Algerian";
+}
+#tiposia {
+	background-color:#E6D6F5;
+	font-family:"Trebuchet MS";
+}
+#inconvenientesia {
+	background-color:#D5F5E3;
+	font-family:"Tahoma";
+}
+#futuroia{
+	background-color:#FFF0C2;
+	font-family:"Comic Sans MS";
+}
+#historia{
+		width:500px;
+	    height:300px;
+}
+#futuro{
+		width:500px;
+	    height:300px;
+}
+#claude{
+	width: 300px;
+	height: 150px;
+}
+#chat{
+	width: 300px;
+	height: 150px;
+}
+#semantris{
+	width: 300px;
+	height: 150px;
+}
+	#menuvolver ul li{
+		display: inline;
+		padding: 5px 12px; 
+		margin: 5px; 
+		background-color: #FCBBD1;
+		color: white;
+		font-family: "Algerian";
+		font-size:"20px";
+	}
+
+    #menuvolver ul { 
+
+	border-bottom:50px;
+	border-bottom-style:solid;
+	border-bottom-color:#FEEBE7
+	}
+	#menuvolver ul li:hover {
+	background-color:#FCBBD1;
+	cursor: pointer;
+}
+ #menuvolver ul li a{
+	text-decoration:none;
+	color:inherit;
+ }
